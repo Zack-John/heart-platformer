@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bs2hvrgt7imuo"]
+
+[ext_resource type="PackedScene" uid="uid://c2jun603q65rb" path="res://Scenes/world_copy.tscn" id="1_a834g"]
+[ext_resource type="PackedScene" uid="uid://blup42v4uamqt" path="res://Scenes/level_two.tscn" id="2_dybvh"]
+
+[node name="LevelOne" instance=ExtResource("1_a834g")]
+next_level = ExtResource("2_dybvh")
+
+[node name="Player" parent="." index="7"]
+position = Vector2(24, 112)
